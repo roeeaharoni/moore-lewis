@@ -1,15 +1,15 @@
 #!/bin/bash
 
-SRC=
-TGT=
-DOMAIN=
+SRC=en
+TGT=es
+DOMAIN=biomedical
 
-INDOMAIN_DATA=
-FULL_CRAWLED_DATA=
+INDOMAIN_DATA=/home/nlp/aharonr6/git/focus/data/train/esen_wmt18_biomedical_ufrgs/valid-esen
+FULL_CRAWLED_DATA=/home/nlp/aharonr6/git/focus/data/train/in_out/in_out.no_leak
 
-OUTPUT_DIR=
-KENLM_DIR=
-SCRIPTS_DIR=
+OUTPUT_DIR=/home/nlp/aharonr6/git/focus/data/moore_lewis_output
+KENLM_DIR=/home/nlp/aharonr6/git/kenlm/build
+SCRIPTS_DIR=/home/nlp/aharonr6/git/forks/moore-lewis
 
 # Sample parallel data to be roughly same size as indomain data
 SAMPLES=$(wc -l $INDOMAIN_DATA.$SRC | awk '{print $1}')
