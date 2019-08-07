@@ -4,10 +4,12 @@ SRC=en
 TGT=es
 DOMAIN=biomedical
 
-INDOMAIN_DATA=/home/nlp/aharonr6/git/focus/data/train/esen_wmt18_biomedical_ufrgs/valid-esen
+#INDOMAIN_DATA=/home/nlp/aharonr6/git/focus/data/train/esen_wmt18_biomedical_ufrgs/valid-esen
+INDOMAIN_DATA=/home/nlp/aharonr6/git/focus/data/train/esen_wmt18_biomedical_ufrgs/valid-esen.3k
 FULL_CRAWLED_DATA=/home/nlp/aharonr6/git/focus/data/train/in_out/in_out.no_leak
 
-OUTPUT_DIR=/home/nlp/aharonr6/git/focus/data/moore_lewis_output
+#OUTPUT_DIR=/home/nlp/aharonr6/git/focus/data/moore_lewis_output
+OUTPUT_DIR=/home/nlp/aharonr6/git/focus/data/moore_lewis_output_3k
 KENLM_DIR=/home/nlp/aharonr6/git/kenlm/build
 SCRIPTS_DIR=/home/nlp/aharonr6/git/forks/moore-lewis
 
